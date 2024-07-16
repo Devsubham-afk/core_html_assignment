@@ -1,0 +1,352 @@
+#Build a simple webpage that displays text as shown in the below image
+#code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Formatting Text</title>
+</head>
+<body>
+    <p><b>This text will be bolded</b></p>
+    <p><i>This text will be italic</i></p>
+    <p><ins>This text will be underlined</ins></p>
+    <p><mark>This text will be highlighted</mark></p>
+    <p>This is normal text<sup>This will be super scripted</sup>This is normal again</p>
+    <p>This is normal text<sub>This text will be subscripted</sub></p>
+    <p>Normal Text <small>Smal Text</small></p>
+    <p><del>This text will be deleted</del></p>
+</body>
+</html>
+
+# Build a simple webpage that helps users navigate different web development-related websites. Note: On 
+clicking the hyperlink the web pages should open in a new tab. Below is a reference image
+#code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Navigate Me :</h1>
+    <p>Take me to <a href="https://pwskills.com/" target="_blank">PW Skills</a> to buy a course</p>
+    <p>Take me to <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN docs</a> to know more about Web Development</p>
+    <p>Take me to <a href="https://lab.pwskills.com/" target="_blank">PW Skills Lab</a> to practice live coding</p>
+</body>
+</html>
+
+#Build a simple blog web page with 3 pages home, web development, and web design. Each page must 
+contain hyperlinks to other pages in the top, a heading of the page topic and a paragraph of information. 
+For the home page you can add some information about yourself.
+#code: Home page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <a href="web_development.html">Go to web development page</a><br />
+    <a href="web_design.html">Go to web design page</a>
+    <h2>About Me :</h2>
+    <hr>
+    <p>I am a dedicated and passionate individual who is committed to continuous
+     personal and professional growth. With a curious mind and a willingness to learn,
+     I embrace new challenges and opportunities with enthusiasm. My proactive approach, 
+     strong work ethic, and ability to collaborate effectively with others allows me to 
+     thrive in dynamic environments. I am driven by a desire to make a positive impact, 
+     and I am always seeking ways to contribute meaningfully to the world around me.</p>
+</body>
+</html>
+
+#web dvelopment page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development</title>
+</head>
+<body>
+    <a href="home.html">Go to home page</a><br />
+    <a href="web_design.html">Go to web design page</a>
+    <p>This is web development page</p>
+</body>
+</html>
+
+#web design page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design</title>
+</head>
+<body>
+    <a href="home.html">Go to home page</a><br />
+    <a href="web_development.html">Go to web development page</a>
+    <p>This is web design page</p>
+</body>
+</html>
+
+#Create an ordered list of HTML tags. Each list item must include the tag name and some information about 
+the tag.
+#code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="1">
+        <li>head tag : This is the head section of the HTML document, which contains meta-information about the document, 
+            such as the title of the web page that appears in the browser's title bar or tab.</li>
+            &nbsp;
+        <li> This is the title tag, which sets the title of the web page. In this example, it's set to "Hello, World!"</li>
+        &nbsp;
+        <li>body tag : This is the body section of the HTML document, which contains the visible content of the web 
+            page, such as headings, paragraphs, and more.</li>
+        &nbsp;
+        <li>h1 tag : This is a heading tag, used to define a top-level heading. In this example, it displays the text "Hello, 
+            World!" as a heading</li>
+        &nbsp;
+        <li>p tag : This is a paragraph tag, used to define a paragraph of text. In this example, it displays the text "This 
+            is my first HTML page." as a paragraph</li>
+    </ol>
+</body>
+</html>
+
+# Create a description list of full stack web development tech stack, using the <dl> tag. Each term should be 
+a tech stack name and each description should be a brief explanation of what the tech stack is used for.
+#code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <dl>
+        <dt>HTML, CSS, JavaScript</dt>
+        <dd>
+          HTML, CSS, and JavaScript form the fundamental building blocks of web development. HTML is used for creating the structure of<br/>
+          web pages, CSS is used for styling and to make the webpage presentable, and JavaScript is used for adding interactivity and
+         dynamic behaviour.
+        </dd>
+      
+        <dt>Node.js</dt>
+        <dd>
+          Node.js is a JavaScript runtime environment that allows developers to run JavaScript code on the server side.<br /> 
+          It is commonly used for building scalable network applications and is a popular choice for creating backend services<br/>
+          in full stack development.
+        </dd>
+      
+        <dt>Express.js</dt>
+        <dd>
+          Express.js is a minimalist web application framework for Node.js. It provides a robust set of features for building web and 
+          mobile applications.
+        </dd>
+      
+        <dt>React</dt>
+        <dd>
+          React is a popular JavaScript library for building user interfaces. React is commonly used for building interactive and
+           dynamic front-end applications.
+        </dd>
+      
+        <dt>MongoDB</dt>
+        <dd>
+          MongoDB is a NoSQL database that uses a document-oriented data model. It is known for its flexibility, scalability, 
+          and performance.
+        </dd>
+      </dl>
+</body>
+</html>
+
+#Create an ordered list of the full stack web development tech stack HTML, CSS, and JS. For each tech 
+stack, create a table that lists the tech stack name, its primary use cases, and some key features or 
+benefits. Below is a reference image.
+#code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="1">
+        <li><b>HTML</b></li>
+        &nbsp;
+        <table border="1" cellpadding="2" cellspacing="4">
+            <tr>
+                <th>Primary Use Cases</th>
+                <th>Key Features/Benefits</th>
+            </tr>
+            <tr>
+                <td>Build the structure of a webpage</td>
+                <td>
+                    <ul type="circle">
+                        <li>Simple and easy to learn</li>
+                        <li>Compatible with all web browsers</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        &nbsp;
+        <li><b>CSS</b></li>
+        &nbsp;
+        <table border="1" cellpadding="2" cellspacing="4">
+            <tr>
+                <th>Primary Use Cases</th>
+                <th>Key Features/Benefits</th>
+            </tr>
+            <tr>
+                <td>used to style the webpage <br> make it presentable</td>
+                <td>
+                    <ul type="circle">
+                        <li>CSS allows for a clear <br>separation of design </li>
+                        <li> be applied and reused across <br>multiple web pages. </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        &nbsp;
+        <li><b>JS</b></li>
+        &nbsp;
+        <table border="1" cellpadding="2" cellspacing="4">
+            <tr>
+                <th>Primary Use Cases</th>
+                <th>Key Features/Benefits</th>
+            </tr>
+            <tr>
+                <td>The primary use is to add interactivity <br>and dynamic behavior to websites</td>
+                <td>
+                    <ul type="circle">
+                        <li>avaScript follows a prototype-based <br>object-oriented programming model</li>
+                        <li>It enables dynamic interactions</li> 
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </ol>
+</body>
+</html>
+
+#Build a complex nested list structure representing a multi-level table of contents. Use unordered lists 
+(<ul>) and list items (<li>) with inline-block styling to create a structured layout. Apply formatting tags to 
+enhance the presentation of list items.
+#code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul type="disc">
+        <li><ins>Part 1: Introduction</ins></li>
+        <li><ins> Part 2: Getting Started</ins></li>
+        <ul type="circle">
+            <li><ins>2.1 Installing the Software</ins></li>
+            <li><ins>2.2 Creating a New Project</ins></li>
+            <ul type="square">
+                <li><ins>2.2.1 Project Templates</ins></li>
+                <li><ins>2.2.2 Customizing Settings</ins></li>
+            </ul>
+            <li><ins>2.3 Exploring the Interface</ins></li>
+            <ul type="square">
+                <li><ins>2.3.1 Toolbar Features</ins></li>
+                <li><ins>2.3.2 Panel Layout</ins></li>
+                <ul type="square">
+                    <li><ins>2.3.2.1 Docking Panels</ins></li>
+                    <li><ins>2.3.2.2 Tabbed Interface</ins></li>
+                </ul>
+            </ul>
+        </ul>
+        <li><ins>Part 3: Advanced Topics</ins></li>
+        <ul type="circle">
+            <li>3.1 Working with Plugins</li>
+            <ul type="square">
+                <li><ins>3.1.1 Installing Plugins</ins></li>
+                <li><ins>3.1.2 Plugin Configuration</ins></li>
+            </ul>
+            <li><ins>3.2 Customizing The UI</ins></li>
+            <ul type="square">
+                <li><ins>3.2.1 Changing Themes</ins></li>
+                <li><ins>3.2.2 Configuring Shortcuts</ins></li>
+            </ul>
+            <li><ins>3.3 Optimizing performance</ins></li>
+            <ul type="square">
+                <li><ins>3.3.1 Caching  Strategies</ins></li>
+                <li><ins>3.3.2 Resource Minification</ins></li>
+            </ul>
+        </ul>
+        <li><ins>Part 4:Conclusion</ins></li>
+    </ul>
+</body>
+</html>
+
+#Create a table to display a conference schedule. Each row corresponds to a time slot, and each column 
+corresponds to a room. Some time slots might have multiple sessions running simultaneously in different 
+rooms. Utilize rowspan and colspan attributes as necessary to accommodate this complex schedule. 
+(use table attribute “cellpadding”  to give extra padding in each table cell )
+#code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conference Schedule</h1>
+    &nbsp;
+    <table border="1" cellpadding="10" cellspacing="2">
+        <tr>
+            <th><b>Time</b></th>
+            <th><b>Room 1</b></th>
+            <th><b>Room 2</b></th>
+            <th><b>Room 3</b></th>
+            <th><b>Room 4</b></th>
+        </tr>
+        <tr>
+            <td rowspan="3">9:00 AM - 10:00 AM</td>
+            <td rowspan="2">Keynote</td>
+            <td>Session A</td>
+            <td>Session B</td>
+            <td rowspan="3">Session C</td>
+        </tr>
+        <tr>
+            <td>Session D</td>
+            <td>Session E</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 11:30 AM</td>
+            <td colspan="2">Session F</td>
+        </tr>
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td colspan="4">Lunch Break</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1:00 PM - 2:00 PM</td>
+            <td>Session G</td>
+            <td rowspan="2">Session H</td>
+            <td>Session I</td>
+            <td>Session J</td>
+        </tr>
+        <tr>
+            <td>Session K</td>
+            <td>Session L</td>
+            <td>Session M</td>
+        </tr>
+    </table>
+</body>
+</html>
